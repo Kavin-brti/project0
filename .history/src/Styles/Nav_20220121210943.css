@@ -1,0 +1,18 @@
+.navbar{
+    display:inline-flex;
+    background-color:#eee;
+    width:100%;
+    float:left;
+}
+.navbar ul{
+    float:left;
+}
+.navbar li{
+    list-style-type:none;
+    padding:12px;
+    margin:2px;
+    float:left;
+}
+.navbar li:hover{
+    border-top:2px solid blue;
+}

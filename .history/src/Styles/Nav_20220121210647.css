@@ -1,0 +1,8 @@
+.navbar{
+    display:inline-flex;
+}
+.navbar li{
+    list-style-type:none;
+    padding:12px;
+    border:1px solid blue;
+}

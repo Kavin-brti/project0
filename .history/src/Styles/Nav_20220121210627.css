@@ -1,0 +1,6 @@
+.navbar{
+    display:inline-flex;
+}
+.navbar li{
+    list-style-type:none;
+}

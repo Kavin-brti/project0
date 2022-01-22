@@ -1,0 +1,15 @@
+.footer{
+    background-color:black;
+    width:100%;
+}
+.footer h3{
+    color:greenyellow;
+}
+.footer ul{
+    color:rgb(38, 255, 154);
+    display: inline-flex;
+}
+.social li{
+    list-style-type: none;
+    padding:12px;
+}

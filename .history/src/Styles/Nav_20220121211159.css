@@ -1,0 +1,19 @@
+.navbar{
+    display:inline-flex;
+    background-color:#eee;
+    width:100%;
+    
+}
+.navbar ul{
+   
+   
+}
+.navbar li{
+    list-style-type:none;
+    padding:12px;
+    margin:2px;
+   
+}
+.navbar li:hover{
+    border-top:2px solid blue;
+}

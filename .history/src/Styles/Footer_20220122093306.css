@@ -1,0 +1,14 @@
+.footer{
+    background-color:black;
+    width:100%;
+}
+.footer h3{
+    color:greenyellow;
+}
+.footer ul{
+    color:rgb(38, 255, 154);
+    display: inline-block;
+}
+.social li{
+    list-style-type: none;
+}

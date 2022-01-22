@@ -1,0 +1,28 @@
+.title{
+   margin-right:1250px;
+    
+}
+.navbar{
+    background-color:#eee;
+    width:100%;
+    
+}
+.navbar ul{
+    display:inline-flex;
+   
+}
+.navbar li{
+    list-style-type:none;
+    padding:12px;
+    margin:2px;
+   
+}
+.navbar li:hover{
+    border-top:4px solid blue;
+    cursor:pointer;
+}
+.logo{
+    float:left;
+    margin-left:20px;
+    margin-top:-10px;
+}

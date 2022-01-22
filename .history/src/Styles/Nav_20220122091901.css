@@ -1,0 +1,49 @@
+.title{
+    position:relative;
+   margin-right:1180px;
+   margin-top:35px;
+   color:rgb(99, 99, 99);
+    
+}
+.navbar{
+    width:100%;
+    
+}
+.navbar ul{
+    display:inline-flex;
+   
+}
+.navbar li{
+    list-style-type:none;
+    padding:18px;
+    margin:2px;
+   
+}
+.navbar li:hover{
+    margin:0px;
+    border-top:4px solid rgb(0, 207, 35);
+    cursor:pointer;
+    padding:8px;
+}
+.logo{
+    float:left;
+    margin-left:20px;
+    margin-top:-68px;
+    
+}
+.contactHead{
+    float:right;
+    margin-right:20px;
+    margin-top:-60px;
+
+}
+.contactHead a{
+    text-decoration:none;
+    color:black;
+}
+.vaccination{
+    margin-left:40px;
+   
+  
+    border:1px solid #00cf23;
+}

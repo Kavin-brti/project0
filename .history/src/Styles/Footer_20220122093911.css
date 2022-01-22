@@ -1,0 +1,19 @@
+.footer{
+    background-color:black;
+    width:100%;
+}
+.footer h3,p{
+    color:greenyellow;
+}
+.footer ul{
+    color:rgb(38, 255, 154);
+    display: inline-flex;
+    margin-right:35px;
+}
+.social li{
+    list-style-type: none;
+    padding:0 12px;
+}
+.frontend li, .backend li{
+    list-style-type: none;
+}

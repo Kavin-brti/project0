@@ -1,0 +1,17 @@
+.navbar{
+    display:inline-flex;
+    background-color:#eee;
+    width:100%;
+    margin-left:500px;
+}
+.navbar ul{
+    margin-left:500px;
+}
+.navbar li{
+    list-style-type:none;
+    padding:12px;
+    margin:2px;
+}
+.navbar li:hover{
+    border-top:2px solid blue;
+}
