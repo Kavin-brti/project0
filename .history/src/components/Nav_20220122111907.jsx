@@ -43,17 +43,14 @@ function Nav() {
             </div>&nbsp;
             <hr/>
                 <div className={Styles.navbar}>
-                  <div className={Styles.nav}>
-                  <ul>
-                    <li><HomeTwoTone  style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;Home</li>
-                    <li><FolderOpenTwoTone style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;Abouts us</li>
-                    <li><MedicineBoxTwoTone style= {{ fontSize: '20px',marginRight:'0px'  }} />&nbsp;Hospitals</li>
-                    <li><PlusCircleTwoTone style= {{ fontSize: '20px',marginRight:'0px'  }} />&nbsp;Speaciality</li>
-                    <li><FireTwoTone style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;For Patients</li>
-                    <li><MailTwoTone style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;Contact us</li>
+                <ul className={Styles.nav}>
+                    <li><HomeTwoTone  style= {{ fontSize: '20px' }} />&nbsp;Home</li>
+                    <li><FolderOpenTwoTone style= {{ fontSize: '20px'}} />&nbsp;Abouts us</li>
+                    <li><MedicineBoxTwoTone style= {{ fontSize: '20px' }} />&nbsp;Hospitals</li>
+                    <li><PlusCircleTwoTone style= {{ fontSize: '20px' }} />&nbsp;Speaciality</li>
+                    <li><FireTwoTone style= {{ fontSize: '20px'}} />&nbsp;For Patients</li>
+                    <li><MailTwoTone style= {{ fontSize: '20px'}} />&nbsp;Contact us</li>
                 </ul>
-                  </div>
-               
                 <hr/>
                 </div>   
                 {setTwoToneColor('#00cf23')}

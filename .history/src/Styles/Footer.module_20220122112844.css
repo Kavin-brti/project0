@@ -15,9 +15,6 @@
     list-style-type: none;
     padding:0 12px;
 }
-.social li:hover{
-    cursor:pointer;
-}
 .frontend li, .backend li{
     list-style-type: none;
 }

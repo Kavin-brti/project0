@@ -13,12 +13,10 @@
     display:inline-flex;
    
 }
-.nav{
-    padding:10px;
-}
 .navbar li{
     list-style-type:none;
-    padding:10px 20px;
+    padding-right:8px;
+    padding-left:-10px;
     margin:2px;
    
 }
@@ -26,7 +24,7 @@
     margin:0px;
     border-top:4px solid rgb(0, 207, 35);
     cursor:pointer;
-    padding:10px 20px;
+    padding:8px;
 }
 .logo{
     float:left;

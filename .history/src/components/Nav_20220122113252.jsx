@@ -38,22 +38,19 @@ function Nav() {
             </Dropdown>
 
             <div className={Styles.contactHead}>
-                <p style={{color:'black'}}><PhoneFilled  style= {{ fontSize: '20px',color: '#00cf23'  }} />&nbsp;+91 95009 77257</p>
+                <p ><PhoneFilled  style= {{ fontSize: '20px',color: '#00cf23'  }} />&nbsp;+91 95009 77257</p>
                 <p><a href="mailto:infokmh@gmail.com"><MailFilled style= {{ fontSize: '20px',color: '#00cf23'  }} />&nbsp;infokmh@gmail.com</a></p>
             </div>&nbsp;
             <hr/>
                 <div className={Styles.navbar}>
-                  <div className={Styles.nav}>
-                  <ul>
-                    <li><HomeTwoTone  style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;Home</li>
-                    <li><FolderOpenTwoTone style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;Abouts us</li>
-                    <li><MedicineBoxTwoTone style= {{ fontSize: '20px',marginRight:'0px'  }} />&nbsp;Hospitals</li>
-                    <li><PlusCircleTwoTone style= {{ fontSize: '20px',marginRight:'0px'  }} />&nbsp;Speaciality</li>
-                    <li><FireTwoTone style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;For Patients</li>
-                    <li><MailTwoTone style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;Contact us</li>
+                <ul className={Styles.nav}>
+                    <li><HomeTwoTone  style= {{ fontSize: '20px' }} />Home</li>&nbsp;
+                    <li><FolderOpenTwoTone style= {{ fontSize: '20px'}} />Abouts us</li>
+                    <li><MedicineBoxTwoTone style= {{ fontSize: '20px' }} />Hospitals</li>
+                    <li><PlusCircleTwoTone style= {{ fontSize: '20px' }} />Speaciality</li>
+                    <li><FireTwoTone style= {{ fontSize: '20px'}} />For Patients</li>
+                    <li><MailTwoTone style= {{ fontSize: '20px'}} />Contact us</li>
                 </ul>
-                  </div>
-               
                 <hr/>
                 </div>   
                 {setTwoToneColor('#00cf23')}

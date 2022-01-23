@@ -45,12 +45,12 @@ function Nav() {
                 <div className={Styles.navbar}>
                   <div className={Styles.nav}>
                   <ul>
-                    <li><HomeTwoTone  style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;Home</li>
-                    <li><FolderOpenTwoTone style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;Abouts us</li>
-                    <li><MedicineBoxTwoTone style= {{ fontSize: '20px',marginRight:'0px'  }} />&nbsp;Hospitals</li>
-                    <li><PlusCircleTwoTone style= {{ fontSize: '20px',marginRight:'0px'  }} />&nbsp;Speaciality</li>
-                    <li><FireTwoTone style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;For Patients</li>
-                    <li><MailTwoTone style= {{ fontSize: '20px',marginRight:'0px' }} />&nbsp;Contact us</li>
+                    <li><HomeTwoTone  style= {{ fontSize: '20px',marginRight:'0px' }} />Home</li>
+                    <li><FolderOpenTwoTone style= {{ fontSize: '20px'}} />Abouts us</li>
+                    <li><MedicineBoxTwoTone style= {{ fontSize: '20px' }} />Hospitals</li>
+                    <li><PlusCircleTwoTone style= {{ fontSize: '20px' }} />Speaciality</li>
+                    <li><FireTwoTone style= {{ fontSize: '20px'}} />For Patients</li>
+                    <li><MailTwoTone style= {{ fontSize: '20px'}} />Contact us</li>
                 </ul>
                   </div>
                
